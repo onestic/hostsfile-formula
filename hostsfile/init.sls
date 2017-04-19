@@ -29,4 +29,5 @@
 {% endif %}
     - names:
       - {{ name }}
+      - {{ name.split('.')[0] }}
 {% endfor %}
